@@ -1,7 +1,19 @@
 aid: cnc24
 name: CNC24
-description: CNC24 is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CNC24 is a German online manufacturing platform for ordering custom CNC parts
+  and precision components. Customers upload CAD files (STEP, STP, DWG, DXF, PDF
+  and 3D data) and receive a binding quote within 48 hours, with production
+  routed through a vetted network of 500+ manufacturers across 21 countries and
+  roughly 5,500 machines. An AI-powered matching algorithm assigns each request
+  to partners with the right expertise and production environment. Supported
+  processes include CNC milling, turning, laser and waterjet cutting, sheet
+  metal bending, punching, EDM, 3D printing, injection molding and die casting,
+  serving aerospace, automotive, medical, robotics, construction and energy
+  customers. The platform runs a fully digital workflow from quoting to delivery
+  with order tracking, ISO 9001:2015 quality assurance, AES-256 encryption and
+  anonymized drawings shared with partners. CNC24 is a Seedcamp portfolio
+  company. No public developer API, SDKs or API documentation are published.
 url: https://raw.githubusercontent.com/api-evangelist/cnc24/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cnc24.com/wp-content/uploads/2022/04/cnc24-logo.svg
 tags:
 - Company
+- Manufacturing
+- CNC Machining
+- On-Demand Manufacturing
+- Custom Parts
+- Procurement
+- Supply Chain
+- Prototyping
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://cnc24.com
+  url: https://www.cnc24.com
+- type: Blog
+  url: https://www.cnc24.com/blog/
+- type: Support
+  url: https://www.cnc24.com/contact/
+- type: Login
+  url: https://www.cnc24.com/login/
+- type: TermsOfService
+  url: https://www.cnc24.com/gtc/
+- type: PrivacyPolicy
+  url: https://www.cnc24.com/privacy-policy/
+- type: DomainSecurity
+  url: security/cnc24-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
